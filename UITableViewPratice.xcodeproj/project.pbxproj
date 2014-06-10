@@ -14,13 +14,14 @@
 		CB46848619464C8800AA1119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46848519464C8800AA1119 /* main.m */; };
 		CB46848A19464C8800AA1119 /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46848919464C8800AA1119 /* PRAppDelegate.m */; };
 		CB46848D19464C8800AA1119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB46848B19464C8800AA1119 /* Main.storyboard */; };
-		CB46849019464C8800AA1119 /* PRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46848F19464C8800AA1119 /* PRViewController.m */; };
 		CB46849219464C8800AA1119 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB46849119464C8800AA1119 /* Images.xcassets */; };
 		CB46849919464C8800AA1119 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46849819464C8800AA1119 /* XCTest.framework */; };
 		CB46849A19464C8800AA1119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46847919464C8800AA1119 /* Foundation.framework */; };
 		CB46849B19464C8800AA1119 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46847D19464C8800AA1119 /* UIKit.framework */; };
 		CB4684A319464C8800AA1119 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB4684A119464C8800AA1119 /* InfoPlist.strings */; };
 		CB4684A519464C8800AA1119 /* UITableViewPraticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4684A419464C8800AA1119 /* UITableViewPraticeTests.m */; };
+		CB4684B0194650EC00AA1119 /* PRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4684AF194650EC00AA1119 /* PRTableViewController.m */; };
+		CB4684B319468B9B00AA1119 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4684B219468B9B00AA1119 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		CB46848819464C8800AA1119 /* PRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRAppDelegate.h; sourceTree = "<group>"; };
 		CB46848919464C8800AA1119 /* PRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAppDelegate.m; sourceTree = "<group>"; };
 		CB46848C19464C8800AA1119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB46848E19464C8800AA1119 /* PRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRViewController.h; sourceTree = "<group>"; };
-		CB46848F19464C8800AA1119 /* PRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRViewController.m; sourceTree = "<group>"; };
 		CB46849119464C8800AA1119 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB46849719464C8800AA1119 /* UITableViewPraticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewPraticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB46849819464C8800AA1119 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CB4684A019464C8800AA1119 /* UITableViewPraticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewPraticeTests-Info.plist"; sourceTree = "<group>"; };
 		CB4684A219464C8800AA1119 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB4684A419464C8800AA1119 /* UITableViewPraticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewPraticeTests.m; sourceTree = "<group>"; };
+		CB4684AE194650EC00AA1119 /* PRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTableViewController.h; sourceTree = "<group>"; };
+		CB4684AF194650EC00AA1119 /* PRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTableViewController.m; sourceTree = "<group>"; };
+		CB4684B119468B9B00AA1119 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		CB4684B219468B9B00AA1119 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,8 @@
 				CB46848819464C8800AA1119 /* PRAppDelegate.h */,
 				CB46848919464C8800AA1119 /* PRAppDelegate.m */,
 				CB46848B19464C8800AA1119 /* Main.storyboard */,
-				CB46848E19464C8800AA1119 /* PRViewController.h */,
-				CB46848F19464C8800AA1119 /* PRViewController.m */,
+				CB4684AE194650EC00AA1119 /* PRTableViewController.h */,
+				CB4684AF194650EC00AA1119 /* PRTableViewController.m */,
 				CB46849119464C8800AA1119 /* Images.xcassets */,
 				CB46848019464C8800AA1119 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		CB46848019464C8800AA1119 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB4684B119468B9B00AA1119 /* AstronomicalData.h */,
+				CB4684B219468B9B00AA1119 /* AstronomicalData.m */,
 				CB46848119464C8800AA1119 /* UITableViewPratice-Info.plist */,
 				CB46848219464C8800AA1119 /* InfoPlist.strings */,
 				CB46848519464C8800AA1119 /* main.m */,
@@ -251,8 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB46848A19464C8800AA1119 /* PRAppDelegate.m in Sources */,
-				CB46849019464C8800AA1119 /* PRViewController.m in Sources */,
+				CB4684B0194650EC00AA1119 /* PRTableViewController.m in Sources */,
 				CB46848619464C8800AA1119 /* main.m in Sources */,
+				CB4684B319468B9B00AA1119 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

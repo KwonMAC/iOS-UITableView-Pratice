@@ -1,5 +1,5 @@
 //
-//  PRViewController.h
+//  PRTableViewController.h
 //  UITableViewPratice
 //
 //  Created by Kwon on 2014. 6. 10..
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PRViewController : UIViewController
+@interface PRTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray *planets;
 
 @end
