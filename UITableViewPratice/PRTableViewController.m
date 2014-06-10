@@ -112,17 +112,20 @@
     if (indexPath.section == 0)
     {
         cell.textLabel.text = @"I am in section 0";
-        cell.backgroundColor = [UIColor redColor];
+        cell.backgroundColor = [UIColor blueColor];
+        cell.textLabel.textColor = [UIColor redColor];
     }
     else if(indexPath.section == 1)
     {
         cell.textLabel.text = @"another section";
-        cell.backgroundColor = [UIColor blueColor];
+        cell.backgroundColor = [UIColor greenColor];
+        cell.textLabel.textColor = [UIColor blueColor];
     }
     else
     {
         cell.textLabel.text = [NSString stringWithFormat:@"Cell %i", indexPath.row];
-        cell.backgroundColor = [UIColor greenColor];
+        cell.backgroundColor = [UIColor redColor];
+        cell.textLabel.textColor = [UIColor yellowColor];
     }
     
     
